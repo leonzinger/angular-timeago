@@ -39,7 +39,7 @@ angular.module('yaru22.angular-timeago', [
 
   service.settings = {
     refreshMillis: 60000,
-    allowFuture: false,
+    allowFuture: true,
     strings: {
       'en_US': {
         prefixAgo: null,
@@ -63,7 +63,7 @@ angular.module('yaru22.angular-timeago', [
         prefixAgo: null,
         prefixFromNow: null,
         suffixAgo: 'לפני',
-        suffixFromNow: 'מעכשיו',
+        suffixFromNow: 'בעוד',
         seconds: 'פחות מדקה',
         minute: 'כדקה',
         minutes: '%d דקות',
